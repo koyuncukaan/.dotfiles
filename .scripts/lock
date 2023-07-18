@@ -31,7 +31,7 @@ i3lock \
   --layout-color=$blue \
   --date-color=$blue \
   --time-color=$blue \
-  --screen 1 \
+  --screen -1 \
   --blur 1 \
   --clock \
   --indicator \
@@ -51,4 +51,4 @@ i3lock \
   --date-font="Hack Nerd Font Mono" \
   --layout-font="Hack Nerd Font Mono" \
   --verif-font="Hack Nerd Font Mono" \
-  --wrong-font="Hack Nerd Font Mono" \
+  --wrong-font="Hack Nerd Font Mono"
