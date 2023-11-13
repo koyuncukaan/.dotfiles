@@ -102,8 +102,9 @@ source ~/.zsh_profile
 
 # pnpm
 export PNPM_HOME="/home/kaan/.local/share/pnpm"
+export PIP_HOME="/home/kaan/.local/bin"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+  *) export PATH="$PNPM_HOME:$PIP_HOME:$PATH" ;;
 esac
 # pnpm end
