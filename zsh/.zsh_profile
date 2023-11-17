@@ -1,3 +1,6 @@
 export N_PREFIX="$HOME/n"
 export PATH="/home/kaan/n/bin:$PATH"
 export PATH="/home/kaan/.local/.npm-global/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
