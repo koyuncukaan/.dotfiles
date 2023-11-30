@@ -4,3 +4,10 @@ export PATH="/home/kaan/.local/.npm-global/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+if [ ! -S ~/.ssh/ssh-agent.socket ]; then
+    eval `ssh-agent -a ~/.ssh/ssh-agent.socket`
+    ssh-add
+else
+    export SSH_AUTH_SOCK=~/.ssh/ssh-agent.socket
+fi
+
