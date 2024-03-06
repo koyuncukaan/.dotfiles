@@ -108,3 +108,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PIP_HOME:$PATH" ;;
 esac
 # pnpm end
+alias vim="nvim"
